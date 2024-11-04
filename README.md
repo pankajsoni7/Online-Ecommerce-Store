@@ -27,3 +27,24 @@ An AVL tree is a self-balancing binary search tree that supports fast insertion,
 Usage in Project:
 
 The AVL tree is utilized to efficiently manage and maintain the store’s inventory. Operations like searching, inserting, and deleting items are performed with optimized performance. For example, the AVL tree handles all takeaway orders, with order IDs assigned by the user as keys for efficient insertion and deletion processes.
+
+
+• Graphs:
+
+Graphs are used in the project to represent areas where deliveries can be made. These graphs are structured using an adjacency matrix.
+
+• Dijkstra’s Algorithm:
+
+Dijkstra’s algorithm, a shortest-path algorithm, is implemented to facilitate efficient searching and navigation within the system. This algorithm finds the shortest path between two nodes—represented as cities—enabling the calculation of distances between them.
+
+Usage in Project:
+
+Dijkstra's algorithm is particularly useful in routing and serves as a subroutine for other graph algorithms. In this system, cities are represented as nodes, and the algorithm determines the shortest path between them, providing the distances between locations.
+
+• Prim’s Algorithm:
+
+Prim’s algorithm is used to compute the minimum spanning tree of a graph, helping to calculate the distances between different areas within a city.
+
+Usage in Project:
+
+Prim’s algorithm is applied to determine distances between city areas, with the goal of offering discounts based on minimum-distance routes rather than using prior distances. The key concept of Prim’s algorithm is that it incrementally builds a tree by selecting the minimum-weight edge connecting a new vertex to the existing tree. This approach ensures the minimum total weight of any possible spanning tree formed from the graph.
